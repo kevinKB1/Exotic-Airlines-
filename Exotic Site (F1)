@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Exotic Airlines</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-sans bg-gray-50 text-gray-800">
+  <!-- Hero Section -->
+  <section class="relative h-screen text-white">
+    <img src="/mnt/data/extracted_exotic_airlines/1.png" alt="Exotic Airlines Brochure" class="absolute inset-0 w-full h-full object-cover opacity-70">
+    <div class="relative z-10 bg-black bg-opacity-60 h-full flex flex-col justify-center items-center text-center px-4">
+      <img src="/mnt/data/extracted_exotic_airlines/2.png" alt="Exotic Airlines Logo" class="w-32 mb-4 rounded-full border border-white">
+      <h1 class="text-4xl md:text-6xl font-bold mb-4">Travel First Class from Australia to the Middle East</h1>
+      <p class="text-xl md:text-2xl mb-6">Where business meets opportunity — thrive in a region built for ambition.</p>
+      <a href="#book" class="bg-yellow-400 hover:bg-yellow-300 text-black font-semibold py-3 px-6 rounded-full">Book Now</a>
+    </div>
+  </section>
+
+  <!-- First Class Features -->
+  <section class="py-16 px-6 md:px-20 bg-white">
+    <h2 class="text-3xl font-bold text-center mb-8">Experience True Luxury</h2>
+    <div class="grid md:grid-cols-3 gap-8">
+      <div class="bg-gray-100 p-6 rounded-2xl shadow">
+        <h3 class="text-xl font-semibold mb-2">Private Suites</h3>
+        <p>Enjoy complete privacy, personalized service, and maximum comfort in your own space.</p>
+      </div>
+      <div class="bg-gray-100 p-6 rounded-2xl shadow">
+        <h3 class="text-xl font-semibold mb-2">Fine Dining Anytime</h3>
+        <p>Savor gourmet meals whenever you like, served fresh and tailored to your tastes.</p>
+      </div>
+      <div class="bg-gray-100 p-6 rounded-2xl shadow">
+        <h3 class="text-xl font-semibold mb-2">Entertainment & Lounge</h3>
+        <p>Relax in our exclusive lounge or watch your favorite films on a 4K-HD screen.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Special Offers -->
+  <section class="bg-yellow-50 py-16 px-6 md:px-20">
+    <h2 class="text-3xl font-bold text-center mb-8">Special Offers</h2>
+    <ul class="space-y-4 max-w-2xl mx-auto text-lg">
+      <li>✅ 20% discount for early bookings</li>
+      <li>✅ Free extra luggage for students</li>
+      <li>✅ Loyalty points on every trip</li>
+      <li>✅ Priority boarding and kids’ menus for families</li>
+      <li>✅ Combo deals with hotels & local experiences</li>
+    </ul>
+  </section>
+
+  <!-- Why Choose Us -->
+  <section class="py-16 px-6 md:px-20 bg-white">
+    <h2 class="text-3xl font-bold text-center mb-8">Why Exotic Airlines?</h2>
+    <div class="grid md:grid-cols-3 gap-8">
+      <div>
+        <h3 class="text-xl font-semibold">24/7 Support</h3>
+        <p>Always here to assist — wherever you are.</p>
+      </div>
+      <div>
+        <h3 class="text-xl font-semibold">Flexible for Business & Leisure</h3>
+        <p>Ideal for executives, tourists, students, and families.</p>
+      </div>
+      <div>
+        <h3 class="text-xl font-semibold">Destinations That Matter</h3>
+        <p>Fly to Dubai, Abu Dhabi, Doha, and Riyadh in unmatched comfort.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Booking Form -->
+  <section id="book" class="bg-gray-100 py-16 px-6 md:px-20">
+    <h2 class="text-3xl font-bold text-center mb-8">Book Your Flight</h2>
+    <form class="max-w-xl mx-auto bg-white p-8 rounded-xl shadow space-y-4">
+      <div>
+        <label class="block font-semibold">Full Name</label>
+        <input type="text" class="w-full p-3 border rounded-lg" placeholder="Your Name" required>
+      </div>
+      <div>
+        <label class="block font-semibold">Email Address</label>
+        <input type="email" class="w-full p-3 border rounded-lg" placeholder="you@example.com" required>
+      </div>
+      <div>
+        <label class="block font-semibold">Destination</label>
+        <select class="w-full p-3 border rounded-lg" required>
+          <option>Dubai</option>
+          <option>Abu Dhabi</option>
+          <option>Doha</option>
+          <option>Riyadh</option>
+        </select>
+      </div>
+      <div>
+        <label class="block font-semibold">Travel Date</label>
+        <input type="date" class="w-full p-3 border rounded-lg" required>
+      </div>
+      <button type="submit" class="w-full bg-yellow-400 hover:bg-yellow-300 text-black font-bold py-3 rounded-lg">Submit Booking</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-white py-8 text-center">
+    <p>📞 +61 3475027721 | ✉️ info@exoticairlines.com</p>
+    <p class="mt-2">&copy; 2025 Exotic Airlines. All rights reserved.</p>
+  </footer>
+</body>
+</html>
